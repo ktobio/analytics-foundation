@@ -27,7 +27,6 @@ set linesize 200
 log using "logs/analytics-foundation", replace
 
 // data should be placed in a folder named "data" in your directory 
-// the data is in .csv (comma seperated values) format
 
 // Calculating the Standard Deviation of House Sales
 // this command reads the data into Stata
@@ -77,11 +76,8 @@ regress MathScore Height Age
 
 clear
 
+// closes your log
+log close
 
-
-
-
-stop
-
-// code here that labels the variables?
-
+// drops all data from Stata's memory
+clear
