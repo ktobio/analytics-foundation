@@ -1,8 +1,8 @@
 /********************************************************************************************
-File        : analytics-foundcation.do  <--- this should be the exact name of THIS document
+File        : PA_founddations.do  <--- this should be the exact name of THIS document
 Author      : Kristina Tobio 
 Created     : 06 Jan 2016
-Modified    : 06 Jan 2016
+Modified    : 19 Jan 2016
 Description : .do file for analytics foundation slide deck
 ********************************************************************************************/
 
@@ -24,7 +24,7 @@ set linesize 200
     
 // this creates a log file, which will record all of the commands and outputs from this .do file 
 // log files should be placed in a folder named "logs" in your directory 
-log using "logs/analytics-foundation", replace
+log using "logs/PA_foundations_log", replace
 
 // data should be placed in a folder named "data" in your directory 
 
